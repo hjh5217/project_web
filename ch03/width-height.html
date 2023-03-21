@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>박스 모델</title>
+        <style>
+            /* 전체선택자 */
+            * {
+                margin: 0;
+            }
+            .box1 {
+                width: 400px;
+                height: 100px;
+                background-color: orange;
+                /* border: 1px solid #ccc; */
+                /* margin - 바깥여백(top, right, bottom, left 시계방향) */
+                /* 수직 배치시 위 아래 margin 이 만나면 더 큰값으로 정해짐 */
+                margin: 10px 10px 20px;
+
+            }
+            .box2 {
+                width: 400px;
+                height: 100px;
+                background-color: yellowgreen;
+                margin: 10px;
+                /* border: 1px solid #ccc; */
+            }
+            .box3 {
+                width: 400px;
+                height: 100px;
+                background-color: purple;
+                margin: 10px;
+                /* border: 1px solid #ccc; */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </body>
+</html>

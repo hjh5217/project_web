@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>선택자 우선 순위</title>
+        <!-- 구글 폰트 연결 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap"
+            rel="stylesheet">
+        <style>
+            body {
+                /* 스타일 상속 - 자식 요소로 스타일이 적용됨 */
+                font-family: "바탕체";
+                color: blue;
+                font-family: 'Noto Sans KR', sans-serif;
+            }
+            h1 {
+                /* 강제 우선순위 부여, 자주 쓰진 않는다. */
+                /* !important > inline style > id  > class 또는 attribute 순으로 우선순위가 높다. */
+                color: red !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1 style="color: orange; font-family: 휴먼매직체">레드향</h1>
+            <p style="color: black;">껍질에 붉은 빛이 돌아 레드향이라 불린다.</p>
+            <!-- 인라인 style 태그의 우선순위가 더 높다.-->
+            <p>레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.
+            </p>
+        </div>
+    </body>
+</html>

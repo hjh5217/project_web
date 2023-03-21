@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>finance</title>
+        <style>
+            table,
+            td {
+                border: 1px solid gray;
+                height: 40px;
+                text-align: center;
+                margin: 20px auto;
+            }
+
+            /* div 가운데정렬 */
+            /* .wrap{ */
+            /* body에 div 크기를 맞춤 */
+            /* position: absolute; */
+            /* top: 50%; */
+            /* left: 50%; */
+            /* border: solid 1px gray; */
+            /* margin-left: -150px; */
+            /* margin-top: -400px; */
+            /* } */
+
+            .wrap{
+                text-align: center;
+            }
+            a {
+                text-decoration: none;          
+            }
+            a:hover {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="wrap">
+            <a href="https://naver.com">네이버</a>
+            <table>
+                <caption>재무상태표</caption>
+                <tbody>
+                    <tr>
+                        <colgroup>
+                            <col style="width: 100px;">
+                            <col>
+                        </colgroup>
+                        <td rowspan="2">자산: 현금, 현금외 자산</td>
+                        <td>부채:차입금</td>
+                    </tr>
+                    <tr>
+                        <td>자본: 자본금, 이익잉여금</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
