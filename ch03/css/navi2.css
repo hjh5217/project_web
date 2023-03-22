@@ -1,13 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 ul {
     list-style: none;
     margin-right: 100px;
     text-align: right;
-
 }
 ul li {
     display: inline-block;
-    margin: 20px;
-    padding-top: 10px;
+    /* margin: 20px;
+    padding-top: 10px; */
+    /* 수직 정렬 - nav 의 height가 80일때 */
+    /* line-height 를 같게 주면 중앙으로 옴  */
+    line-height: 80px;
+    margin: 0 20px;
+}
+nav {
+    width: 90%;
+    height: 80px;
+    background-color: #069;
 }
 a {
     text-decoration: none;
@@ -16,14 +28,6 @@ a {
 #container {
     width: 1000px;
     margin: 0 auto;
-    
-}
-nav {
-    
-    width: 90%;
-    height: 80px;
-    background-color: #069;
-
 }
 a:hover{
     color: rgb(69, 153, 0);

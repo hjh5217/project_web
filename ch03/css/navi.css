@@ -1,3 +1,12 @@
+#wrap{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+nav{
+    width: 800px;
+    text-align: right;
+}
 ul{
     list-style: none;
 }
@@ -16,13 +25,4 @@ li:hover{
 }
 section{
     padding-left: 100px;
-}
-#wrap{
-    width: 1000px;
-    text-align: center;
-    margin: 0 auto;
-}
-nav{
-    width: 800px;
-    text-align: right;
 }

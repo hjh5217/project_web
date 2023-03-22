@@ -1,0 +1,13 @@
+ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+#container{
+    padding: 40px;
+    width: 520px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+button{
+    margin-top: 10px;
+}
