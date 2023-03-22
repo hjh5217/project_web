@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>버튼 태그</title>
+    </head>
+    <body>
+        <!-- 바깥이 "" 면 괄호 안은 '' 여야 함 -->
+        <!-- 속성 onclick="자바스크립트함수()" 자바 스크립트와 연동 -->
+        <!-- 1 -->
+        <!-- <button type="button" onclick="window.alert('안녕하세요')">확인</button> -->
+        <!-- 2 -->
+        <input type="button" onclick="alert('안녕하세요')" value="확인">
+        <p>
+            <button type="button" onclick="window.alert('아이디와 비밀번호를 확인해주세요.')">로그인</button>
+        </p>
+        <!-- 외부 페이지 연결 -->
+        <!-- 1.현재페이지에 부를때  -->
+        <!-- <button onclick="location.href='https://naver.com'">button</button> -->
+        <!-- 2.새창으로 띄울때 -->
+        <button type="button" onclick="window.open('https://www.naver.com')">네이버</button>
+        <script>
+            alert("환영합니다.");
+        </script>
+    </body>
+</html>
