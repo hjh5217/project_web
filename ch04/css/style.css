@@ -16,6 +16,13 @@ div {
 p {
     line-height: 2;
 }
+.bg{
+    background: url(../img/tangerine.png) no-repeat;
+    /* 테두리 숨김 */
+    border: none;
+    width: 500px;
+    height: 400px;
+}
 ol li {
     line-height: 2;
 }
