@@ -1,0 +1,168 @@
+/* 전체 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 16:9 화면상 1600px로 설정 */
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+main {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* header 영역 스타일 */
+header {
+    height: 80px;
+    background-color: rgb(36, 91, 209);
+}
+header #logo {
+    width: 300px;
+    float: left;
+    padding-left: 30px;
+    line-height: 80px;
+}
+#logo h1 a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    width: 1000px;
+    float: right;
+    line-height: 80px;
+    text-align: right;
+    margin-right: 50px;
+}
+nav #topMenu {
+    list-style: none;
+}
+#topMenu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+#topMenu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#topMenu li a:hover {
+    color: #2fb;
+}
+/* 메인 영역 스타일 */
+#contents section {
+    margin: 30px 10px;
+}
+section div {
+    margin: 10px;
+}
+section p {
+    line-height: 2;
+}
+/* section 의 높이를 지정해줌 */
+#activity,
+#healing {
+    height: 300px;
+}
+#activity img,
+#healing img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.schedule h3 {
+    margin-top: 20px;
+}
+.schedule ul li {
+    list-style: none;
+    margin: 10px;
+}
+section #sightseeing {
+    text-decoration: none;
+}
+#sightseeing ul li {
+    list-style: square;
+    margin: 10px 30px;
+}
+#sightseeing ul a {
+    text-decoration: none;
+    color: blue;
+}
+#sightseeing ul a:hover {
+    text-decoration: underline;
+}
+/* footer 영역 스타일 */
+footer {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+}
+footer #bottomMenu {
+    list-style-type: none;
+    padding: 20px;
+}
+#bottomMenu li {
+    /* inline-block 속성은 기본 패딩값이 있음 */
+    /* display: inline-block; */
+    float: left;
+    margin: 0;
+    border-right: 1px solid black;
+    padding: 0 20px;
+}
+#bottomMenu li:last-child {
+    border: none;
+}
+#bottomMenu a {
+    text-decoration: none;
+    color: black;
+}
+#bottomMenu a:hover {
+    text-decoration: underline;
+}
+/* product 스타일 */
+#product p{
+    line-height: 2;
+}
+#product h2{
+    margin-bottom: 10px;
+}
+#description{
+    width: 800px;
+    padding: 20px 60px;
+    border: 1px dotted black;
+    margin: 30px auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#description img{
+    margin: 0 10px 10px 10px;
+    border-radius: 10px;
+}
+#recipe{
+    width: 800px;
+    padding: 20px 60px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+#recipe ol{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#recipe ol li{
+    line-height: 1.7;
+}
+#package{
+    width: 800px;
+    padding: 20px 60px;
+    border: 1px dotted black;
+    margin: 30px auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#package table, tr, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
