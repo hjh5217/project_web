@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 /* 전체 스타일 */
 * {
     margin: 0;
@@ -27,6 +28,7 @@ header #logo {
 #logo h1 a {
     color: white;
     text-decoration: none;
+    font-family: 'Merienda', cursive;
 }
 nav {
     width: 1000px;
@@ -122,13 +124,13 @@ footer #bottomMenu {
     text-decoration: underline;
 }
 /* product 스타일 */
-#product p{
+#product p {
     line-height: 2;
 }
-#product h2{
+#product h2 {
     margin-bottom: 10px;
 }
-#description{
+#description {
     width: 800px;
     padding: 20px 60px;
     border: 1px dotted black;
@@ -136,24 +138,24 @@ footer #bottomMenu {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-#description img{
-    margin: 0 10px 10px 10px;
+#description img {
+    margin: 0 10px 10px;
     border-radius: 10px;
 }
-#recipe{
+#recipe {
     width: 800px;
     padding: 20px 60px;
     border: 1px dotted black;
     margin: 0 auto;
 }
-#recipe ol{
+#recipe ol {
     padding-left: 20px;
     margin-top: 10px;
 }
-#recipe ol li{
+#recipe ol li {
     line-height: 1.7;
 }
-#package{
+#package {
     width: 800px;
     padding: 20px 60px;
     border: 1px dotted black;
@@ -161,8 +163,70 @@ footer #bottomMenu {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-#package table, tr, td{
+#package table,
+td,
+th {
     border: 1px solid #ccc;
     border-collapse: collapse;
     padding: 10px 20px;
+}
+/* qna스타일 */
+#board section h2 {
+    margin: 30px 10px;
+    text-align: center;
+}
+#board #tbl_board {
+    border: 1.5px solid #016801;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 800px;
+    height: 80px;
+}
+#tbl_board td,
+#tbl_board th {
+    border: 1px solid #016801;
+    text-align: center;
+}
+
+#tbl_board thead {
+    background-color: beige;
+}
+.btn {
+    text-align: right;
+    margin-right: 200px;
+}
+.btn button {
+    padding: 10px 15px;
+}
+/* about_me 스타일*/
+#product{
+    margin: 30px auto;
+}
+#product h1{
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+#product section{
+    margin: 10px 30px;
+    font-size: 20px;
+}
+.about_me hr{
+    margin-top: 10px;
+}
+#product .about_me div{
+    display: inline-block;
+    margin-top: 50px;
+}
+.about_me div p{
+    margin: 50px 30px;
+}
+.about_me div p a{
+    text-decoration: none;
+}
+.about_me div p a:hover{
+    background-color: blue;
+    color: white;
+}
+section ul li{
+  margin: 20px 60px;
 }
