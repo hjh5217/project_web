@@ -199,21 +199,21 @@ th {
     padding: 10px 15px;
 }
 /* about_me 스타일*/
-#product{
+#about_me{
     margin: 30px auto;
 }
-#product h1{
+#about_me h1{
     margin-left: 25px;
     margin-bottom: 30px;
 }
-#product section{
+#about_me section{
     margin: 10px 30px;
     font-size: 20px;
 }
 .about_me hr{
     margin-top: 10px;
 }
-#product .about_me div{
+#about_me .about_me div{
     display: inline-block;
     margin-top: 50px;
 }
@@ -229,4 +229,30 @@ th {
 }
 section ul li{
   margin: 20px 60px;
+}
+/* resister */
+#resister section h1{
+    margin: 30px auto;
+text-align: center;
+}
+#tbl_write{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 700px;
+}
+#tbl_write input[type="text"]{
+    width: 650px;
+    height: 25px;
+}
+#tbl_write textarea{
+    width: 650px;
+}
+#tbl_write input[type="submit"], [type="reset"]{
+    width: 100px;
+    height: 50px;
+}
+#tbl_write tr:last-child{
+    text-align: center;
 }
