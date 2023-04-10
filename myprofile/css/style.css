@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+/* 전체 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 16:9 화면상 1600px로 설정 */
+#container {
+  width: 1400px;
+  margin: 0 auto;
+}
+main {
+  width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* header 영역 스타일 */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: rgb(36, 91, 209);
+}
+.navbar__logo {
+  font-size: 24px;
+}
+.navbar__logo a {
+  color: white;
+  text-decoration: none;
+}
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.navbar__menu li {
+  padding: 8px 12px;
+  line-height: 45px;
+}
+.navbar__menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.navbar__menu li:hover {
+  background-color: yellowgreen;
+  border-radius: 4px;
+}
+
+.navbar__toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  top: 20px;
+  font-size: 24px;
+}
+@media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar__menu li {
+    width: 100%;
+    text-align: left;
+  }
+  .navbar__toggleBtn {
+    display: block;
+  }
+  .navbar__menu.active {
+    display: flex;
+  }
+}
+/* 메인 영역 스타일 */
+#contents section {
+  margin: 30px 10px;
+}
+section div {
+  margin: 10px;
+}
+section p {
+  line-height: 2;
+}
+
+/* about_me 스타일*/
+#about_me {
+  margin: 30px auto;
+}
+#about_me h1 {
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+#about_me section {
+  margin: 10px 30px;
+  font-size: 20px;
+}
+.about_me hr {
+  margin-top: 10px;
+}
+#about_me .about_me div {
+  display: inline-block;
+  margin-top: 20px;
+}
+.about_me div p {
+  margin: 50px 30px;
+}
+.about_me div p a {
+  text-decoration: none;
+}
+.about_me div p a:hover {
+  background-color: blue;
+  color: white;
+}
+section ul li {
+  margin: 20px 60px;
+}
+.skill hr {
+  margin-bottom: 15px;
+}
+.skill div {
+  float: left;
+}
+
+@media screen and (max-width: 700px) {
+  .skill div {
+    float: none;
+  }
+}
